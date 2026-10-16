@@ -1,5 +1,5 @@
 
-# Machine Learning for Density Functional Theory
+# Machine Learning in Density Functional Theory
 
 **Convolutional Neural Networks for Kinetic Energy Functional Approximation**
 
