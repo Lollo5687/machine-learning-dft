@@ -5,7 +5,7 @@
 from typing import Any
 import torch.nn as nn
 
-hidden_dim = 60
+hidden_dim = 60 #Hidden layer dimension
 
 class modello1(nn.Module):
     def __init__(self, *args: Any, **kwargs: Any) -> None:
