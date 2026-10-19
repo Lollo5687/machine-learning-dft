@@ -107,11 +107,19 @@ The following results were obtained during the thesis and evaluated on independe
 
 The CNN successfully approximated the kinetic energy functional, achieving predictions with errors generally below chemical accuracy, defined as $3.187 * 10^{-3}$. The results demonstrate that convolutional architectures can accurately learn the density-to-energy mapping for this system.
 
+![Predicted vs Actual Kinetic Energy [Ry]](results/images/error_KE.png)
+
+*Figure 1: Distribution of kinetic energy prediction errors for the single-fermion system using the M5-60 model. The error is defined as ΔKE = KE_pred − KE_true, where KE_pred and KE_true are the predicted and reference kinetic energies, respectively.*
+
 **Multi-fermion systems**
 
 The extension to multiple fermions proved more challenging. Despite achieving relatively high R² values, the prediction errors remained significantly larger than in the single-fermion case.
 
 Architectural improvements reduced overfitting and improved generalization, but did not fully resolve the accuracy limitations.
+
+![Predicted vs Actual Kinetic Energy [Ry]](results/images/DK_E-20ferm.png)
+
+*Figure 2: Distribution of kinetic energy prediction errors for the 20 fermion system using the M5-60 model. The error is defined as ΔKE = KE_pred − KE_true, where KE_pred and KE_true are the predicted and reference kinetic energies, respectively.*
 
 **Importance of the external potential**
 
